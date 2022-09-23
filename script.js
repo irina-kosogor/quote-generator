@@ -17,7 +17,7 @@ function complete() {
 }
 
 async function getQuote() {
-    loading()
+    loading();
     const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
     const apiUrl = 'http://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en';
     try {
